@@ -22,7 +22,7 @@
 		5609E5601D41066E00CDBE6F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		5609E5621D419EA500CDBE6F /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		5609E5641D41BA5100CDBE6F /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		56839A1A1D3C78AD0006CA03 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56839A1A1D3C78AD0006CA03 /* SignInWithGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInWithGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56839A1D1D3C78AD0006CA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56839A221D3C78AD0006CA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56839A241D3C78AD0006CA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		56839A111D3C78AD0006CA03 = {
 			isa = PBXGroup;
 			children = (
-				56839A1C1D3C78AD0006CA03 /* GoodAsOldPhones */,
+				56839A1C1D3C78AD0006CA03 /* SignInWithGoogle */,
 				56839A1B1D3C78AD0006CA03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		56839A1B1D3C78AD0006CA03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56839A1A1D3C78AD0006CA03 /* GoodAsOldPhones.app */,
+				56839A1A1D3C78AD0006CA03 /* SignInWithGoogle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56839A1C1D3C78AD0006CA03 /* GoodAsOldPhones */ = {
+		56839A1C1D3C78AD0006CA03 /* SignInWithGoogle */ = {
 			isa = PBXGroup;
 			children = (
 				56839A1D1D3C78AD0006CA03 /* AppDelegate.swift */,
@@ -70,15 +70,16 @@
 				5609E5621D419EA500CDBE6F /* ProductsTableViewController.swift */,
 				5609E5641D41BA5100CDBE6F /* Product.swift */,
 			);
+			name = SignInWithGoogle;
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56839A191D3C78AD0006CA03 /* GoodAsOldPhones */ = {
+		56839A191D3C78AD0006CA03 /* SignInWithGoogle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56839A2C1D3C78AD0006CA03 /* Build configuration list for PBXNativeTarget "GoodAsOldPhones" */;
+			buildConfigurationList = 56839A2C1D3C78AD0006CA03 /* Build configuration list for PBXNativeTarget "SignInWithGoogle" */;
 			buildPhases = (
 				56839A161D3C78AD0006CA03 /* Sources */,
 				56839A171D3C78AD0006CA03 /* Frameworks */,
@@ -88,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = GoodAsOldPhones;
+			name = SignInWithGoogle;
 			productName = GoodAsOldPhones;
-			productReference = 56839A1A1D3C78AD0006CA03 /* GoodAsOldPhones.app */;
+			productReference = 56839A1A1D3C78AD0006CA03 /* SignInWithGoogle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56839A151D3C78AD0006CA03 /* Build configuration list for PBXProject "GoodAsOldPhones" */;
+			buildConfigurationList = 56839A151D3C78AD0006CA03 /* Build configuration list for PBXProject "SignInWithGoogle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56839A191D3C78AD0006CA03 /* GoodAsOldPhones */,
+				56839A191D3C78AD0006CA03 /* SignInWithGoogle */,
 			);
 		};
 /* End PBXProject section */
@@ -263,8 +264,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.SteffensLLC.GoodAsOldPhones;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = come.SteffensLLC.SignInWithGoogle;
+				PRODUCT_NAME = SignInWithGoogle;
 			};
 			name = Debug;
 		};
@@ -274,15 +275,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.SteffensLLC.GoodAsOldPhones;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = come.SteffensLLC.SignInWithGoogle;
+				PRODUCT_NAME = SignInWithGoogle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56839A151D3C78AD0006CA03 /* Build configuration list for PBXProject "GoodAsOldPhones" */ = {
+		56839A151D3C78AD0006CA03 /* Build configuration list for PBXProject "SignInWithGoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56839A2A1D3C78AD0006CA03 /* Debug */,
@@ -291,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56839A2C1D3C78AD0006CA03 /* Build configuration list for PBXNativeTarget "GoodAsOldPhones" */ = {
+		56839A2C1D3C78AD0006CA03 /* Build configuration list for PBXNativeTarget "SignInWithGoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56839A2D1D3C78AD0006CA03 /* Debug */,

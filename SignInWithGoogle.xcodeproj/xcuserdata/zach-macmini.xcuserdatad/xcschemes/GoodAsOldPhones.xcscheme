@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "56839A191D3C78AD0006CA03"
-               BuildableName = "GoodAsOldPhones.app"
-               BlueprintName = "GoodAsOldPhones"
-               ReferencedContainer = "container:GoodAsOldPhones.xcodeproj">
+               BuildableName = "SignInWithGoogle.app"
+               BlueprintName = "SignInWithGoogle"
+               ReferencedContainer = "container:SignInWithGoogle.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "56839A191D3C78AD0006CA03"
-            BuildableName = "GoodAsOldPhones.app"
-            BlueprintName = "GoodAsOldPhones"
-            ReferencedContainer = "container:GoodAsOldPhones.xcodeproj">
+            BuildableName = "SignInWithGoogle.app"
+            BlueprintName = "SignInWithGoogle"
+            ReferencedContainer = "container:SignInWithGoogle.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "56839A191D3C78AD0006CA03"
-            BuildableName = "GoodAsOldPhones.app"
-            BlueprintName = "GoodAsOldPhones"
-            ReferencedContainer = "container:GoodAsOldPhones.xcodeproj">
+            BuildableName = "SignInWithGoogle.app"
+            BlueprintName = "SignInWithGoogle"
+            ReferencedContainer = "container:SignInWithGoogle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "56839A191D3C78AD0006CA03"
-            BuildableName = "GoodAsOldPhones.app"
-            BlueprintName = "GoodAsOldPhones"
-            ReferencedContainer = "container:GoodAsOldPhones.xcodeproj">
+            BuildableName = "SignInWithGoogle.app"
+            BlueprintName = "SignInWithGoogle"
+            ReferencedContainer = "container:SignInWithGoogle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
